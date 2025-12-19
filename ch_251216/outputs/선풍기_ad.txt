@@ -1,0 +1,4 @@
+1) "겨울철에도 선풍기가 필요하다구요?"
+2) "우리의 선풍기는 공기 순환을 통해 난방 효율을 증대시켜 더욱 따뜻한 겨울을 선사합니다."
+3) "지금 바로 선풍기로 더 포근한 겨울을 만들어보세요!"
+토큰수:CompletionUsage(completion_tokens=117, prompt_tokens=142, total_tokens=259, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))

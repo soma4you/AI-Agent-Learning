@@ -1,0 +1,2 @@
+따뜻한 이불 속에서도 시원함을 원하시나요? 겨울철에도 선풍기는 우리에게 적절한 습도와 공기 순환을 제공하여 편안한 잠을 도와줍니다. 우리의 작은 행복을 응원하는, 겨울철 선풍기의 쿨함을 경험해보세요! #겨울선풍기 #에너지절약 #편안한잠 #공기순환 #작은행복
+토큰수:CompletionUsage(completion_tokens=159, prompt_tokens=141, total_tokens=300, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
