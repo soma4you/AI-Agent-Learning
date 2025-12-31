@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>자바스크립트 연습</h2>
+    <form action="">
+        성명: <input type="text" id="name">
+        <input type="button" value="확인" id="btn">
+    </form>
+    <div id="result">
+        결과:
+
+    </div>
+
+    <script>
+        var btn = document.getElementById('btn')
+        var input = document.getElementById("name");
+        var result = document.getElementById("result");
+
+        btn.onclick = submit
+        function submit() {
+            document.body.bgColor = "yellow";
+            //console.dir(input)
+            //console.dir(result)
+            result.innerText = `결과:  ${input.value}`
+            input.value = ""
+            input.focus()
+        }
+    </script>
+</body>
+</html>
