@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>사칙연산 계산기 (XHR)</title>
+</head>
+<body>
+
+<h1>초등학교 저학년 사칙연산 계산기</h1>
+
+항1: <input type="text" id="a" value="10"><br>
+항2: <input type="text" id="b" value="3"><br>
+
+연산자:
+<select id="oper">
+    <option value="plus">+</option>
+    <option value="min">-</option>
+    <option value="mult">*</option>
+    <option value="div">/</option>
+</select>
+
+<button id="btn">확인</button>
+
+<div>결과: <span id="result">-</span></div>
+<div>상태: <span id="status">대기</span></div>
+
+<script>
+    console.log("XMLHttpRequest Ajax 계산기 시작");
+
+    var BASE_URL = "http://127.0.0.1:8000";
+
+    var inputA = document.getElementById("a");
+    var inputB = document.getElementById("b");
+    var selectOper = document.getElementById("oper");
+    var buttonBtn = document.getElementById("btn");
+
+    var resultSpan = document.getElementById("result");
+    var statusSpan = document.getElementById("status");
+
+    buttonBtn.onclick = function () {
+        var a = inputA.value;
+        var b = inputB.value;
+        var oper = selectOper.value;
+        
+        // 요청 URL 구성 (Path Parameter)
+        var url = BASE_URL + "/" + oper + "/" + a + "/" + b;
+        console.log("요청 URL:", url);
+
+        // Ajax 객체 생성
+        var xhr = new XMLHttpRequest();
+
+        // 요청 준비
+        xhr.open("GET", url, true);
+
+        // 응답 처리
+        xhr.onload = function () {
+            if (xhr.status === 200) {
+                console.log("서버 응답:", xhr.responseText);
+                resultSpan.textContent = xhr.responseText;
+                statusSpan.textContent = "성공";
+            } else {
+                console.error("서버 오류:", xhr.status);
+                resultSpan.textContent = xhr.responseText;
+                statusSpan.textContent = "오류 (" + xhr.status + ")";
+            }
+        };//  -H 'accept: application/json'
+
+
+        //<!-- xhr.setRequestHeader("accept-type", "application/json"); -->
+
+        // 요청 전송
+        xhr.send()
+    };
+</script>
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Ajax란?</h1>
+    
+<script>
+    console.log("Hello javascript world");
+
+    var BASE_URL = "http://127.0.0.1:8000";
+
+    // Ajax를 가능하게 하는 객체 생성
+    var xhr = new XMLHttpRequest();
+    console.dir(xhr);
+
+    // 후속으로 결과를 처리하는 함수
+    xhr.onload = function(event) {
+        // console.log(event);
+        console.log(xhr.responseText);
+    }
+
+    // 요청 할 타겟을 지정
+    xhr.open("POST", BASE_URL+"/", true)
+
+    // 중요: to POST Data like an HTML From
+    // open() 함수 아래에 위치 해야 한다. 
+    xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+
+    // 실행하라는 신호
+    xhr.send()
+
+</script>
+</body>
+</html>
