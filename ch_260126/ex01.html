@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        // 브라우저가 HTML, 이미지, CSS 등 모든 자원을 다 읽어들인 직후 자동 실행
+        window.addEventListener('load', function() {
+
+            // 페이지 로드 메시지 등록
+            alert('페이지 로드 완료!');
+
+            // 인터널 방식 이벤트 등록
+            var interBtn = document.getElementById('interBtn');
+            if (interBtn) { // 버튼이 존재하는지 확인
+                interBtn.onclick = function () {
+                    alert('인터널 방식!');
+                };
+            }
+        });
+
+        function showMessage() {
+            alert('인라인 호출 방식!');
+        }
+    </script>
+</head>
+
+<body>
+    <h1>자바스크립트 주요 방식</h1>
+    
+    <button onclick="alert('Hello World!')">버튼 (Inline Style) - 완전 인라인</button><br>
+    <button onclick="showMessage()">버튼 (Inline Style) - 인라인 호출 방식</button><br>
+    <button id="interBtn">버튼 (Internal Style)</button><br>
+    <button id="exterBtn">버튼 (External Style)</button><br>
+
+    <script src="./ex01.js"></script>
+</body>
+
+</html>

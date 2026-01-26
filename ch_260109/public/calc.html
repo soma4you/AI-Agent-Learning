@@ -50,8 +50,8 @@
 
     function calculate() {
       var xhr = new XMLHttpRequest();
-      //var url  = `http://127.0.0.1:8000/calc/${encodeURIComponent(num1)}/${encodeURIComponent(num2)}/${encodeURIComponent(oper)}`
-      var url = "http://127.0.0.1:8000/calc/" + num1.value + "/" + num2.value + "/" + oper.value
+      //var url  = `http://192.168.56.101:8000/calc/${encodeURIComponent(num1)}/${encodeURIComponent(num2)}/${encodeURIComponent(oper)}`
+      var url = "http://192.168.56.101:8000/calc/" + num1.value + "/" + num2.value + "/" + oper.value
 
       xhr.open("GET", url, true);
 

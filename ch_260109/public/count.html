@@ -52,7 +52,7 @@
         };
 
         function change(cnt) {
-            xhr.open("GET", `http://localhost:8000/change/${cnt}`, true);
+            xhr.open("GET", `http://192.168.56.101:8000/change/${cnt}`, true);
             xhr.onload = function (e) {
                 obj = JSON.parse(xhr.responseText);
                 client_cnt = obj.count;
@@ -61,7 +61,7 @@
             xhr.send();
         }
         function requestCount() {
-            xhr.open("GET", "http://localhost:8000/count", true);
+            xhr.open("GET", "http://192.168.56.101:8000/count", true);
             xhr.onload = function (e) {
                 obj = JSON.parse(xhr.responseText);
                 client_cnt = obj.count;
@@ -70,7 +70,7 @@
             xhr.send();
         }
         function update() {
-            xhr.open("GET", `http://localhost:8000/update`, true);
+            xhr.open("GET", `http://192.168.56.101:8000/update`, true);
             xhr.onload = function (e) {
                 var obj = JSON.parse(e.target.responseText);
                 if (obj != null) {
