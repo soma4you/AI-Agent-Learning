@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <style>
+        /* 체크박스 선택 시 라벨에 취소선 적용 */
+        input[type="checkbox"]:checked + label.label-item {
+            text-decoration: line-through;
+        }
+        .todo-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>ToDo List</h1>
+    <div>
+        <input id="inputItem" type="text" placeholder="할 일을 입력하세요.">
+        <button id="addBtn">추가</button>
+    </div>
+    <ul id="todo-list"></ul>
+    <script src="todolist.js"></script>
+</body>
+</html>

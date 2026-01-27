@@ -1,0 +1,98 @@
+2025-12-09T13:02:03 | USER | ㅇㄴㄹ 
+2025-12-09T13:02:03 | UnboundLocalError | cannot access local variable 'preview' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\workspace\01_practice\ch_2025_12\ch_251209\ex01.py", line 36, in main
+    reply = generate_reply(user)
+  File "C:\workspace\01_practice\ch_2025_12\ch_251209\ex01.py", line 23, in generate_reply
+    preview - user_text.strip().replace("\n", " ")
+    ^^^^^^^
+UnboundLocalError: cannot access local variable 'preview' where it is not associated with a value
+
+2025-12-09T13:02:03 | USER | ㅇㄴㄹ 
+2025-12-09T13:02:03 | UnboundLocalError | cannot access local variable 'preview' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\workspace\01_practice\ch_2025_12\ch_251209\ex01.py", line 36, in main
+    reply = generate_reply(user)
+  File "C:\workspace\01_practice\ch_2025_12\ch_251209\ex01.py", line 23, in generate_reply
+    preview - user_text.strip().replace("\n", " ")
+    ^^^^^^^
+UnboundLocalError: cannot access local variable 'preview' where it is not associated with a value
+
+2025-12-09T13:02:04 | USER | ㄴㅇㄹ 
+2025-12-09T13:02:04 | UnboundLocalError | cannot access local variable 'preview' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\workspace\01_practice\ch_2025_12\ch_251209\ex01.py", line 36, in main
+    reply = generate_reply(user)
+  File "C:\workspace\01_practice\ch_2025_12\ch_251209\ex01.py", line 23, in generate_reply
+    preview - user_text.strip().replace("\n", " ")
+    ^^^^^^^
+UnboundLocalError: cannot access local variable 'preview' where it is not associated with a value
+
+2025-12-09T13:02:04 | USER | ㄴㅇ 
+2025-12-09T13:02:04 | UnboundLocalError | cannot access local variable 'preview' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\workspace\01_practice\ch_2025_12\ch_251209\ex01.py", line 36, in main
+    reply = generate_reply(user)
+  File "C:\workspace\01_practice\ch_2025_12\ch_251209\ex01.py", line 23, in generate_reply
+    preview - user_text.strip().replace("\n", " ")
+    ^^^^^^^
+UnboundLocalError: cannot access local variable 'preview' where it is not associated with a value
+
+2025-12-09T13:02:04 | USER | ㄹ 
+2025-12-09T13:02:04 | UnboundLocalError | cannot access local variable 'preview' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\workspace\01_practice\ch_2025_12\ch_251209\ex01.py", line 36, in main
+    reply = generate_reply(user)
+  File "C:\workspace\01_practice\ch_2025_12\ch_251209\ex01.py", line 23, in generate_reply
+    preview - user_text.strip().replace("\n", " ")
+    ^^^^^^^
+UnboundLocalError: cannot access local variable 'preview' where it is not associated with a value
+
+2025-12-09T13:02:04 | USER | ㄹ 
+2025-12-09T13:02:04 | UnboundLocalError | cannot access local variable 'preview' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\workspace\01_practice\ch_2025_12\ch_251209\ex01.py", line 36, in main
+    reply = generate_reply(user)
+  File "C:\workspace\01_practice\ch_2025_12\ch_251209\ex01.py", line 23, in generate_reply
+    preview - user_text.strip().replace("\n", " ")
+    ^^^^^^^
+UnboundLocalError: cannot access local variable 'preview' where it is not associated with a value
+
+2025-12-09T13:03:48 | USER | ㄱㄱㄱㄱ 
+2025-12-09T13:05:13 | USER | ㅇㄴㄹㄴㅇㄹ 
+2025-12-09T13:05:15 | UnboundLocalError | cannot access local variable 'preview' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\workspace\01_practice\ch_2025_12\ch_251209\ex01.py", line 38, in main
+    reply = generate_reply(user)
+  File "C:\workspace\01_practice\ch_2025_12\ch_251209\ex01.py", line 23, in generate_reply
+    preview - user_text.strip().replace("\n", " ")
+    ^^^^^^^
+UnboundLocalError: cannot access local variable 'preview' where it is not associated with a value
+
+2025-12-09T13:07:04 | USER | dfe 
+2025-12-09T13:07:04 | UnboundLocalError | cannot access local variable 'preview' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\workspace\01_practice\ch_2025_12\ch_251209\ex01.py", line 38, in main
+    reply = generate_reply(user)
+  File "C:\workspace\01_practice\ch_2025_12\ch_251209\ex01.py", line 23, in generate_reply
+    preview - user_text.strip().replace("\n", " ")
+    ^^^^^^^
+UnboundLocalError: cannot access local variable 'preview' where it is not associated with a value
+
+2025-12-09T13:07:58 | USER | dfsf 
+2025-12-09T13:10:12 | USER | 2wsd 
+2025-12-09T13:11:02 | USER | 2wsd 
+2025-12-09T13:11:06 | USER | wq 
+2025-12-09T13:14:22 | USER | fd 
+2025-12-09T13:14:22 | AI | 요청을 확인했다. 핵심은 다음과 같다 : fd 
+2025-12-09T13:14:23 | USER | df 
+2025-12-09T13:14:23 | AI | 요청을 확인했다. 핵심은 다음과 같다 : df 
+2025-12-09T13:14:23 | USER | df 
+2025-12-09T13:14:23 | AI | 요청을 확인했다. 핵심은 다음과 같다 : df 
+2025-12-09T13:14:24 | USER | er 
+2025-12-09T13:14:24 | AI | 요청을 확인했다. 핵심은 다음과 같다 : er 
+2025-12-09T13:14:24 | USER | d 
+2025-12-09T13:14:24 | AI | 요청을 확인했다. 핵심은 다음과 같다 : d 
+2025-12-09T13:14:24 | USER | e 
+2025-12-09T13:14:24 | AI | 요청을 확인했다. 핵심은 다음과 같다 : e 
+CHAT_KOG> jlkjld2025-12-09 14:46:57.936612

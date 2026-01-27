@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/python,dotenv,windows,visualstudiocode,firebase
-# Edit at https://www.toptal.com/developers/gitignore?templates=python,dotenv,windows,visualstudiocode,firebase
+# Created by https://www.toptal.com/developers/gitignore/api/python,dotenv,visualstudiocode,windows,firebase
+# Edit at https://www.toptal.com/developers/gitignore?templates=python,dotenv,visualstudiocode,windows,firebase
 
 ### dotenv ###
 .env
@@ -10,8 +10,8 @@
 **/.firebaserc
 
 ### Firebase Patch ###
-.runtimeconfig.json
-.firebase/
+*.runtimeconfig.json
+*.firebase/
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
@@ -136,7 +136,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.venv
+.venv*/
 env/
 venv/
 ENV/
@@ -229,9 +229,12 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/python,dotenv,windows,visualstudiocode,firebase
+# End of https://www.toptal.com/developers/gitignore/api/python,dotenv,visualstudiocode,windows,firebase
 
-# ECT
+
+# ETC
 *.csv
-books_scraping_llm.jsonl
-info.txt
+*.json
+*.jsonl
+*.tx
+!requirements.txt
