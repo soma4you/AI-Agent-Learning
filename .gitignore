@@ -237,4 +237,5 @@ $RECYCLE.BIN/
 *.json
 *.jsonl
 *.tx
+*.pdf
 !requirements.txt
