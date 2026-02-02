@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>수정<h1>
+        <form action="/update">
+            <input type="hidden" name="_id" value="<%= car._id %>"><br>
+            <input type="text" name="name" id="" placeholder="이름" value="<%= car.name %>"><br>
+            <input type="text" name="price" id="" placeholder="가격" value="<%= car.price %>"><br>
+            <input type="text" name="company" id="" placeholder="제조사" value="<%= car.company %>"><br>
+            <input type="text" name="year" id="" placeholder="제조년" value="<%= car.year %>"><br>
+            <input type="submit" id="" value="확인"><br>
+        </form>
+</body>
+</html>
