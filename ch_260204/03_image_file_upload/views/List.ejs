@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>home</title>
+    </head>
+    <body>
+        <h1>업로드 사진 목록</h1>
+        <table> 
+            <tr><th>순서</th><th>사진</th></tr>
+        <% photoList.forEach((photo, index)=>{ %>
+            <tr>
+                <td><%=index%></td>
+                <td><img src="/uploads/<%=photo.filename%>" width="200"></td>
+            </tr>
+        <% })%>
+        </table>
+    </body>
+</html>

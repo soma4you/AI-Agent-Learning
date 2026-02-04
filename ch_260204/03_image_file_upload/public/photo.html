@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>index</title>
+    </head>
+    <body>
+        <h1>사진 업로드 폼</h1>
+        <br>
+        <form action="/shop/input" method="post" enctype="multipart/form-data">
+            <table>
+                <tr>
+                    <td>작성자</td>
+                    <td><input type="text" name="writer" value="hong"/></td>
+                </tr>
+                <tr>
+                    <td>설명</td>
+                    <td><input type="text" name="comment" value="길동이가 올린 파일"/></td>
+                </tr>
+                <tr>
+                    <td><label for="photo">파일</label></td>
+                    <td><input type="file" name="photo" id="photo" multiple></td>
+                </tr>
+            </table>
+            <input type="submit" value="업로드" name="전송">
+        </form>
+        <div id="prev_img">사진 미리보기</div>
+        <script>
+        var myFileInput = document.getElementById("photo");
+        myFileInput.onchange = function(evt) {
+            var input = evt.target;
+            if(input.files && input.files[0]) {
+                // 비동기 방식이다. 이미지가 다 읽어 졌는지 체크 한다. (xhr와 작동 유사하다.)
+                var prevImg = document.getElementById("prev_img");
+                prevImg.innerHTML = "";
+                console.log(input.files.length);
+                for(var i=0; i<input.files.length; i++) {
+                    var reader = new FileReader();
+                    reader.onload = function(e) {
+                        // 실행 결과 처리
+                        var imgTag = document.createElement("img");
+                        imgTag.src = e.target.result;
+                        imgTag.style.width="100px";
+                        prevImg.appendChild(imgTag);
+                    }
+                    // Ajax엣와 같이 실행 함수, 실행 결과 처리 함수가 있다.
+                    //console.log(input.files[0]);
+                    reader.readAsDataURL(input.files[i]);
+                }
+            }
+        }
+        </script>
+    </body>
+</html>

@@ -66,6 +66,14 @@ AI-Agent-Learning/
 
 ## 📅 2026년 학습 내용
 
+### 2026_02/ch_260204 (2월 4일)
+
+> Express 심화: Bootstrap, MongoDB 연동 및 파일 업로드
+
+- **Bootstrap & EJS**: Bootstrap을 활용한 UI 구성 및 Express View Engine(EJS) 연동
+- **MongoDB**: In-Memory 데이터 관리를 MongoDB로 마이그레이션 (Native Driver 사용)
+- **File Upload**: 이미지 업로드 기능 구현 및 정적 파일 서빙 설정 (서버 모듈 분리)
+
 ### 2026_02/ch_260203 (2월 3일)
 
 > 🤖 자동 코치 에이전트 (Agent Coach) 시뮬레이션
