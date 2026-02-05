@@ -44,27 +44,16 @@ AI 에이전트 개발과 데이터 분석, 웹 개발 학습 기록 저장소�
 
 ---
 
-## 📁 디렉토리 구조
-
-```
-AI-Agent-Learning/
-├── 2026/                     # 2026년 학습 기록
-│   ├── 2026_01/ch_260128/           # 1월 28일 - Streamlit 앱 개발
-│   ├── 2026_01/ch_260127/           # 1월 27일 - MySQL TCL, JavaScript
-│   ├── 2026_01/ch_260126/           # 1월 26일 - MySQL 조인, JavaScript
-│   └── ...
-├── 2025/                     # 2025년 학습 기록
-│   ├── 2025/ch_251216/           # 12월 16일 - 멀티포맷 처리
-│   ├── 2025/ch_251215/           # 12월 15일 - PDF 요약 파이프라인
-│   ├── 2025/ch_251212/           # 12월 12일 - Ollama 챗봇
-│   └── ...
-├── requirements.txt          # Python 패키지 의존성
-└── README.md                # 이 파일
-```
-
----
-
 ## 📅 2026년 학습 내용
+
+### LangCain/01_Basic (2월 5일)
+
+> LCEL(LangChain Expression Language) 기초 및 활용
+
+- **LCEL 기초**: 프롬프트, 모델, 파서 연결 및 체인 구성 (`1.LCEL.py`)
+- **데이터 전달**: `invoke`를 통한 파라미터 전달 및 딕셔너리 활용 (`3.param.py`)
+- **체인 결합**: 여러 체인을 연결하여 복합적인 로직 구현 (`4.combine.py`)
+- **실습**: 번역 에이전트 구현 (`5.translation.py`)
 
 ### 2026_02/ch_260204 (2월 4일)
 
@@ -298,31 +287,6 @@ python 2025/ch_251216/main.py
 - MySQL: 관계형 데이터베이스
 - SQLAlchemy: ORM 패턴
 - ChromaDB: 벡터 데이터베이스
-
----
-
-## 📝 코드 컨벤션
-
-- **언어**: Python 3.8+
-- **스타일**: PEP 8
-- **패키징**: pip + requirements.txt
-- **주석**: 한글/영문 혼용 가능
-
----
-
-## 🔗 관련 링크
-
-- [Python 공식 문서](https://docs.python.org/3/)
-- [FastAPI 문서](https://fastapi.tiangolo.com/)
-- [Streamlit 문서](https://docs.streamlit.io/)
-- [LangChain 문서](https://js.langchain.com/docs/)
-
----
-
-## 📌 주의사항
-
-- 각 폴더별 데이터 파일(CSV, JSON 등)은 크기 제한으로 일부 제외될 수 있습니다.
-- API 키나 민감한 정보는 `.env` 파일에 저장하고 `.gitignore`에 등록하세요.
-- 로컬 환경에서만 테스트되었으므로 다른 환경에서는 호환성이 다를 수 있습니다.
+- MongoDB: NoSQL 데이터베이스
 
 ---
