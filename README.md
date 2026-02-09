@@ -46,6 +46,24 @@ AI 에이전트 개발과 데이터 분석, 웹 개발 학습 기록 저장소�
 
 ## 📅 2026년 학습 내용
 
+### LangCain/02_Memory (2월 9일)
+
+> Streamlit을 활용한 대화형 에이전트 및 RAG 기초
+
+- **Streamlit 통합**: Streamlit을 활용하여 Chat Interface 구축 (`9.streamlit.py`, `10.userselect.py`)
+- **Runnable & History**: `RunnableWithMessageHistory`를 활용한 대화 기록 관리 심화 (`7.runnalbewithchathistory.py`)
+- **유틸리티**: TOML 설정 파일 관리 및 공통 함수 분리 (`8.convert_toml.py`, `callfunction.py`)
+
+### LangCain/01_Basic & 02_Memory (2월 6일)
+
+> LangChain 프롬프트 템플릿 및 메모리 시스템 기초
+
+- **Prompt Template**: `PromptTemplate`, `ChatPromptTemplate` 활용 및 역할(Role) 설정 (`6.prompt.py`, `7.role.py`)
+- **Memory System**:
+  - **Stateless vs Stateful**: 체인 비교 (`1.nomemory.py`)
+  - **Memory Types**: Buffer, Window, History Class 등 다양한 메모리 유형 실습
+  - **Context Injection**: `MessagesPlaceholder` 활용
+
 ### LangCain/01_Basic (2월 5일)
 
 > LCEL(LangChain Expression Language) 기초 및 활용

@@ -241,3 +241,4 @@ $RECYCLE.BIN/
 !requirements.txt
 !package.json
 !package-lock.json
+*.streamlit
