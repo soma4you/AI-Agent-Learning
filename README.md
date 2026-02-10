@@ -46,7 +46,22 @@ AI 에이전트 개발과 데이터 분석, 웹 개발 학습 기록 저장소�
 
 ## 📅 2026년 학습 내용
 
-### LangCain/02_Memory (2월 9일)
+### LangChain/04_Multi_Modal_RAG (2월 10일)
+
+> 멀티모달(이미지) 데이터 처리 및 RAG
+
+- **Image Processing**: 이미지 파일 로딩 및 분석 (`1-1.image_read.py`)
+- **Image RAG**: 이미지를 포함한 질문에 대한 답변 생성 및 정보 검색 (`1-2.image_rag.py`)
+
+### LangChain/03_RAG (2월 10일)
+
+> RAG(Retrieval-Augmented Generation) 파이프라인 구축 기초
+
+- **Document Loading**: PDF 문서 로드 및 전처리 (`1.read_pdf.py`, `SamsungMemoryReaderPDF.py`)
+- **Text Splitting**: 효율적인 검색을 위한 문서 분할 전략 (`2.splittest.py`)
+- **Embedding & Vector Store**: 텍스트 임베딩 생성 및 FAISS 벡터 DB 구축 (`3.text_embedding.py`, `4.faissdb*.py`)
+
+### LangChain/02_Memory (2월 9일)
 
 > Streamlit을 활용한 대화형 에이전트 및 RAG 기초
 

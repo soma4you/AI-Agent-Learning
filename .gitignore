@@ -242,3 +242,4 @@ $RECYCLE.BIN/
 !package.json
 !package-lock.json
 *.streamlit
+!Samsung_Card_Manual_Korean_1.3.pdf
