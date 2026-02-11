@@ -46,6 +46,15 @@ AI 에이전트 개발과 데이터 분석, 웹 개발 학습 기록 저장소�
 
 ## 📅 2026년 학습 내용
 
+### LangChain/05_Agent (2월 11일)
+
+> LangChain Agent 기초: Tool Binding, Reasoning, Execution
+
+- **Agent Basics**: `create_openai_functions_agent`를 활용한 에이전트 생성 및 실행 (`1.cal.py`, `2.binding.py`)
+- **Reasoning**: 에이전트의 사고 과정(Chain of Thought) 이해 (`3.thought.py`)
+- **Custom Tools**: `@tool` 데코레이터를 활용한 요리 도구 정의 (`5.cook_tool.py`)
+- **Planning**: 복잡한 작업(요리 계획 등)을 수행하는 에이전트 실습 (`4.cook_plan.py`)
+
 ### LangChain/04_Multi_Modal_RAG (2월 10일)
 
 > 멀티모달(이미지) 데이터 처리 및 RAG
@@ -69,7 +78,7 @@ AI 에이전트 개발과 데이터 분석, 웹 개발 학습 기록 저장소�
 - **Runnable & History**: `RunnableWithMessageHistory`를 활용한 대화 기록 관리 심화 (`7.runnalbewithchathistory.py`)
 - **유틸리티**: TOML 설정 파일 관리 및 공통 함수 분리 (`8.convert_toml.py`, `callfunction.py`)
 
-### LangCain/01_Basic & 02_Memory (2월 6일)
+### LangChain/01_Basic & 02_Memory (2월 6일)
 
 > LangChain 프롬프트 템플릿 및 메모리 시스템 기초
 
@@ -79,7 +88,7 @@ AI 에이전트 개발과 데이터 분석, 웹 개발 학습 기록 저장소�
   - **Memory Types**: Buffer, Window, History Class 등 다양한 메모리 유형 실습
   - **Context Injection**: `MessagesPlaceholder` 활용
 
-### LangCain/01_Basic (2월 5일)
+### LangChain/01_Basic (2월 5일)
 
 > LCEL(LangChain Expression Language) 기초 및 활용
 

@@ -12,14 +12,15 @@ model = init_chat_model(
 )
 
 # ----------------------------------
-# batch() : 여러 질문을 병렬적으로 요청 가능 -> UX 증가 및 모델 호출을 줄여 비용 감소
+# batch() : 다수의 입력에 대해 모델을 병렬로 호출
 # ----------------------------------
 responses = model.batch(
     inputs = [
         'REST API란? 글자수 100자 이내',
         '인공지능이란? 글자수 100자 이내',
         '랭체인의 핵심 키워드 5개 추천'
-    ]
+    ],
+    config={"max_concurrency": 2},  # 최대 동시 처리 개수 설정
 )
 for i, response in enumerate(responses):
     print(f'{i+1}) {response.text()}')
