@@ -46,6 +46,14 @@ AI 에이전트 개발과 데이터 분석, 웹 개발 학습 기록 저장소�
 
 ## 📅 2026년 학습 내용
 
+### LangChain/6.Graph (2월 12일)
+
+> LangGraph State Management & Workflow
+
+- **StateGraph**: `StateGraph`를 활용한 상태 기반 애플리케이션 구조 설계 (`1.plantest.py`)
+- **Multi-Agent Flow**: 기획 -> 제작 -> 검수 부서로 이어지는 멀티 에이전트 워크플로우 구현 (`2.payment.py`)
+- **Conditional Edge**: `add_conditional_edges`를 활용한 피드백 루프 및 조건부 라우팅 (Retry/Finish) (`3.feedback.py`)
+
 ### LangChain/05_Agent (2월 11일)
 
 > LangChain Agent 기초: Tool Binding, Reasoning, Execution
