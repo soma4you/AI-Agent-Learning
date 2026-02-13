@@ -46,6 +46,21 @@ AI 에이전트 개발과 데이터 분석, 웹 개발 학습 기록 저장소�
 
 ## 📅 2026년 학습 내용
 
+### LangChain/99_homework (2월 14일)
+
+> LangGraph Advanced: Parallel Execution & Error Handling
+
+- **Parallel Execution**: 기획(Planner) 이후 요리(Cook)와 홍보(Marketing)의 병렬 처리 구현 (`studyEx03.py`)
+- **Error Handling**: 제작부의 에러(재료 부족) 발생 시 위기관리부(Error Handler)를 통한 복구 및 재시도 루프
+- **Visualization**: Streamlit을 활용한 실시간 로그 모니터링 및 Mermaid 워크플로우 시각화
+
+### LangChain/6.Graph (2월 13일)
+
+> LangGraph Basics: Visualization & Conditional Edges
+
+- **Custom Visualization**: `PIL`을 활용하여 에이전트 실행 경로와 점수를 시각적으로 표현 (`7.parallel.py`)
+- **Conditional Logic**: `lambda` 함수를 이용한 동적 분기(Error Handler vs Reviewer) 처리
+
 ### LangChain/6.Graph (2월 12일)
 
 > LangGraph State Management & Workflow
