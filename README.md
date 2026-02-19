@@ -46,6 +46,18 @@ AI 에이전트 개발과 데이터 분석, 웹 개발 학습 기록 저장소�
 
 ## 📅 2026년 학습 내용
 
+### LangChain/7.FastAPI & 6.Graph (2월 19일)
+
+> FastAPI 기초 및 LangGraph 심화 기능
+
+- **LangGraph Advanced**:
+  - **Trace**: Agent 실행 경로 추적 및 시각화 (`4.trace.py`)
+  - **Scoring**: 단계별 점수 산정 및 평가 시스템 (`5.score.py`)
+  - **Error Handling**: 에러 발생 시 조건부 분기 및 위기관리부 운영 (`6.fail-system.py`)
+- **FastAPI Basics**:
+  - 기본 서버 구동 및 데이터 모델링 (Pydantic, TypedDict) (`fa-01` ~ `fa-06`)
+  - HTTP 예외 처리 및 데이터 검증 (`fa-07`)
+
 ### LangChain/99_homework (2월 14일)
 
 > LangGraph Advanced: Parallel Execution & Error Handling
