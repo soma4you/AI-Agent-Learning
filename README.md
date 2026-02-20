@@ -46,6 +46,19 @@ AI 에이전트 개발과 데이터 분석, 웹 개발 학습 기록 저장소�
 
 ## 📅 2026년 학습 내용
 
+### LangChain/03_RAG, 6.Graph, 7.FastAPI (2월 20일)
+
+> FAISS 기반 RAG 시스템 및 LangGraph 시각화 워크플로우 통제, FastAPI 유저 모델 관리 실습
+
+- **RAG 및 벡터 DB 활용 (FAISS)**
+  - 기초 문서 분할(`RecursiveCharacterTextSplitter`) 및 임베딩(`OpenAIEmbeddings`) 데이터 FAISS 저장소 활용 (`4-1.faissdb_text.py`)
+  - 웹 데이터를 크롤링하고 정제하여 FastAPI 컨텍스트 기반 QA 서비스 구축 (`7.FastAPI/rag_server.py`)
+- **LangGraph 기반 병렬 및 조건부 워크플로우 구현**
+  - 기획, 제작, 검수, 배달, 에러 처리 등의 노드로 구성된 협업 시뮬레이션 (`6-1.failsystemupdate.py`, `7-1.Parallel.py`)
+  - `Pillow`를 통해 상태 바인딩 다이어그램 경로 시각화 및 Streamlit UI 적용
+- **FastAPI 백엔드 개발 (CRUD)**
+  - Pydantic 모델 검증 및 SQLite 연동을 통해 사용자(User) 데이터 관리 API 작성 (`7.FastAPI/routers/users.py`)
+
 ### LangChain/7.FastAPI & 6.Graph (2월 19일)
 
 > FastAPI 기초 및 LangGraph 심화 기능

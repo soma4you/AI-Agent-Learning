@@ -45,7 +45,13 @@ INSERT INTO users(name, email) VALUES
 ("이길동", "lee@test.com")
 """)
 
-cur.close()
+# 저장(테이블 반영)
 conn.commit()
+
+# 되돌리기
+# conn.rollback()
+
+cur.close()
 conn.close()
 
+print(f"DB Initialized!: {DB_PATH}")

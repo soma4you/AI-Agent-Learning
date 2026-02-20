@@ -44,7 +44,7 @@ print(f'vector_db>>> \n{vector_db}')
 
 # 5. 사용자가 질문을 던졌을 때 벡터DB에서 유사문서 검색
 query = "FAISS는 무엇인가요?"
-search_results  = vector_db.similarity_search(query=query, k=2)  # k=2 : 상위 2개 문서 검색
+search_results  = vector_db.similarity_search(query=query, k=3)  # k=2 : 상위 2개 문서 검색
 print(f'검색 결과>>> \n{search_results}')
 # [Document(id='3c423b8a-8c7a-46a1-b37a-d63874995738', metadata={}, page_content='FAISS는 Facebook AI Research에서 개발한 벡터 검색 라이브러리입니다.\n대규모 백터 데이터에서 빠른 최근접 이웃 검색을 지원합니다.'), Document(id='aaf86abe-aee9-4241-b551-cd0f3d98e2fb', metadata={}, page_content='LangChain은  FAISS을 활용하여 문서 검색 및 질문 응답 시스템을 구축할  수 있습니다.')]
 
